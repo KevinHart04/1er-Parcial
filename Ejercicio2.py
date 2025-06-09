@@ -161,3 +161,9 @@ if baron_zemo:
 
 
 # - Fin del ejercicio
+
+print("\n" + "-" * 100)
+print(color("Trabajo Realizado por: Kevin Hartmann", AZUL))
+print(color("Algoritmos y Estructuras de Datos", CIAN))
+print(color("Fecha de entrega: 09/06/2025", VERDE))
+print("-" * 100)

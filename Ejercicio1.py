@@ -2,7 +2,7 @@
 # -funcion recursiva  para buscar, determinar si Capitan America esta en la lista.
 # -funcion recursiva para listar los superheroes de la lista.
 
-
+from colores import color, ROJO, VERDE, AZUL, CIAN
 
 # - Lista de superheroes
 superheroes_marvel: list = [
@@ -50,4 +50,11 @@ else:
 # - Listar todos los superheroes
 print("\nLista de Superheroes:")
 listar_superheroes(superheroes_marvel)
+
+
 # - Fin del ejercicio   
+print("\n" + "-" * 100)
+print(color("Trabajo Realizado por: Kevin Hartmann", AZUL))
+print(color("Algoritmos y Estructuras de Datos", CIAN))
+print(color("Fecha de entrega: 09/06/2025", VERDE))
+print("-" * 100)
